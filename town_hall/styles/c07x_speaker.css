@@ -93,7 +93,34 @@ aside h3 {
 aside img {
 	padding-bottom: 1em;
 }
-
+*{
+	margin: 0;
+	padding: 0;
+}
+#nav_list ul{
+	list-style-type: none;
+	margin-bottom: 1.5em;
+}
+#nav_list ul li{
+	width: 200px;
+	margin-bottom: .5em;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 3px 3px 0 0 #800000;
+}
+#nav_list ul li a{
+	display: block;
+	padding: .5em 0 .5em .5em;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	background-image:url("../images/right.jpg");
+	background-repeat: no-repeat;
+	background-position: center left 95%;
+}
+#nav_list ul li a.current{
+	color: #800000;
+}
 /* the styles for the footer */
 footer {
 	background-color: #931420;
